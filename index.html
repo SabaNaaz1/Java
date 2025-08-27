@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="button">Click Me</button>
+    <div id="box"></div>
+
+    <a href="mailto:razaaatif658@gmail.com?subject=Hello%20Saba&body=I%20wanted%20to%20connect%20with%20you."
+        style="text-decoration: none; color: green;">
+        Send Email
+    </a>
+
+    <script>
+        const button = document.getElementById("button");
+        const box = document.getElementById("box");
+
+        // box me text dalna
+        box.innerHTML = "Kaisa Hai Bhai";
+
+        // button par event listener
+        button.addEventListener("click", () => {
+            button.innerHTML = "Hello";
+            window.open("https://www.google.com", "_blank");
+        });
+    </script>
+</body>
+
+</html>
