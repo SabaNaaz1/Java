@@ -1,5 +1,5 @@
 package Java;
-public class binary {
+public class BinarySearch{
     static int Binary(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
